@@ -1,7 +1,7 @@
 # pyrefly: ignore [missing-import]
 import cv2 
 
-video_path = "/Users/purushothamanvenkatachalam/Downloads/Ml_project/Ho Chi Minh City Traffic Intersection Vietnam.mov"
+video_path = "/Users/purushothamanvenkatachalam/Downloads/Ml_project/Traffic Video 2560x1440.mp4"
 cap= cv2.VideoCapture(video_path)
 
 print("we are loading the video stream from the{video_path}")

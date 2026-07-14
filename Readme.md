@@ -7,7 +7,9 @@ where  in (x,y )
 - x lowest values is 0
 - but in y lowest is length of the height
 
-![image.png](Read%20me/image.png)
+
+<img width="1132" height="1254" alt="image" src="https://github.com/user-attachments/assets/5cb69d0c-2628-4cac-a0b0-f8407768da17" />
+
 
 - to a compute a image is  in the form of matrixes  0 is pith black and 255 is white
 

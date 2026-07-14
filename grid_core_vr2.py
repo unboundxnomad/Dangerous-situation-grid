@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # capturing the video 
-video_path = "/Users/purushothamanvenkatachalam/Downloads/Ml_project/Karwan Bazar Pedestrians.mp4"
+video_path = "/Users/purushothamanvenkatachalam/Documents/Ml_project/Karwan Bazar Pedestrians.mp4"
 cap = cv2.VideoCapture(video_path)
 
 print(f"We are streaming from {video_path}")
@@ -34,7 +34,7 @@ while cap.isOpened():
         [int(crop_w*.6),int(crop_h*.5)],
         [int(crop_w*.9),crop_h]
     ],np.int32)
-    #reshape points for fillPoly
+    #reshape points for fillPoly # to satisfy c language's requirement 
     polygon_points=polygon_points.reshape((-1,1,2))
 
     # creating a black mask exact size as the frame 

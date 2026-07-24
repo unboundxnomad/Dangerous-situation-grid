@@ -1,6 +1,6 @@
 # Read me
 
-# The co-ordinate system in a computer works like this
+# Phae 1 Feature extraction 
 
 where  in (x,y )
 
@@ -34,3 +34,6 @@ where  in (x,y )
         3. thus it will identify even those noise as a object just inorder to reduce the edges but keep the contract and strong edges intact (eg cars and humans here ) we use gaussian blurring 
     
     5. finally the feature predictions edges here we use the canny but i has. various limitations i need to check those limitations and break my code to further improve my code
+
+    # Limitations 
+
